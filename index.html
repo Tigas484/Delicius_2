@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="logo">
+                <img src="Imagens/Logo/Capturar.PNG" alt="Logo">
+            </div>
+        </section>
+        <nav>
+            <section>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#characters">Soluções</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </section>
+            <style>
+                /* Teste de regras responsivas */
+                @media (max-width: 768px) {
+                    body {
+                        background-color: #f0f0f0; /* Apenas para teste */
+                    }
+                }
+                </style>                
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <div class="hero">
+                
+                <img src="Imagens/banner/Banner original.png" alt="Banner">
+            </div>
+        </section>
+
+        <section class="banner">
+            <!-- Banner da página -->
+        </section>
+    
+        <section class="container">  
+            <div class="product">
+                <img src="Imagens/espaguete.jpg" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>Descrição do produto 1.</p>
+                <div class="price">R$ 99,99</div>
+            </div>
+    
+            <div class="product">
+                <img src="Imagens/carne.jpg" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>Descrição do produto 2.</p>
+                <div class="price">R$ 149,99</div>
+            </div>
+    
+            <div class="product">
+                <img src="Imagens/frango-assado.jpg" alt="Produto 3">
+                <h2>Produto 3</h2>
+                <p>Descrição do produto 3.</p>
+                <div class="price">R$ 299,99</div>
+            </div>
+
+            <div class="product">
+                <img src="Imagens/carne-frita.jpg" alt="Produto 4">
+                <h2>Produto 4</h2>
+                <p>Descrição do produto 4.</p>
+                <div class="price">R$ 299,99</div>
+            </div>
+
+            <div class="product">
+                <img src="Imagens/salmao-grelhado.jpg" alt="Produto 5">
+                <h2>Produto 5</h2>
+                <p>Descrição do produto 5.</p>
+                <div class="price">R$ 299,99</div>
+            </div>
+        </section>
+    
+        <section id="about">
+            <h2>Sobre o Site</h2>
+            <p>Situado no coração da cidade, onde a sofisticação encontra a simplicidade, o Delicius é mais do que um restaurante; é uma jornada sensorial. Desde a sua inauguração, o Delicius tem sido um refúgio para os amantes da alta gastronomia, oferecendo uma experiência culinária que é tanto inovadora quanto inesquecível.
+
+                Ao entrar no Delicius, você é imediatamente envolvido por um ambiente de elegância discreta. A decoração minimalista, com seus tons neutros e iluminação suave, cria um cenário perfeito para a estrela da noite: a comida. Cada detalhe, desde as mesas de madeira escura até os talheres de prata, foi cuidadosamente escolhido para complementar a experiência gastronômica sem roubar o foco da verdadeira protagonista: os pratos.
+                
+                O menu do Delicius é uma celebração da criatividade e da técnica culinária. A cada temporada, o chef executivo, Rafael Montini, apresenta um novo cardápio, inspirado pelos ingredientes frescos e locais disponíveis no momento. Sua filosofia é a de que a melhor comida começa com os melhores ingredientes, e por isso, ele cultiva parcerias com produtores locais e orgânicos para garantir a máxima qualidade e sabor.</p>
+        </section>
+        
+        <section id="characters">
+            <h2>Soluções</h2>
+            <div class="character-card">
+                <div class="character-content">
+                    <img src="Imagens/elon-musk.jpg" alt="criador" class="character-image">
+                    <div class="character-details">
+                        <h3>Criador</h3>
+                        <p>Fez tudo se tornar possível.</p>
+                        <button onclick="showCharacterInfo('warrior')">Ver Detalhes</button>
+                        <div class="character-info" id="warrior-info">
+                            <p>Elon Reeve Musk nasceu em Pretória, África do Sul, em 1971. Desde a infância, os empreendedores sempre tiveram o desejo de inventar coisas. Além de ser apaixonado por ficção científica.
+
+                                Musk é um empresário sul-africano (com cidadania canadense e norte-americana), mais conhecido por fundar e liderar empresas como SpaceX, Tesla, Hyperloop, Neuralink, Starlink, The Boring Company, SolarCity e antes do PayPal.
+                                
+                                Além de ter o status de celebridade, o empresário também está na lista das pessoas mais ricas do mundo. A riqueza de Elon Musk é estimada em US$ 151 bilhões, de acordo com o ranking da Forbes de 2021.
+                                Musk foi co-fundador da Zip2, uma empresa de mídia online que vendeu para a Compaq por 307 milhões de dólares em 1999. Mais tarde, ele co-fundou a PayPal, que vendeu para o eBay por 1,5 bilhão de dólares em 2002. Com esses negócios de sucesso, Musk foi capaz de acumular uma grande fortuna, que ele usou para investir em suas atuais empresas.
+
+                                Hoje, a SpaceX é uma empresa de foguetes e viagens espaciais que tem como objetivo tornar a viagem espacial acessível ao público em geral. A Tesla, Inc. é uma empresa de carros elétricos de luxo e energia solar. A Neuralink é uma empresa de tecnologia cerebral que busca aprimorar a conexão entre o cérebro humano e computadores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <nav>
+       
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicius. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+   
